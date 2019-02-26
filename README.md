@@ -16,7 +16,7 @@ Ant Design Pro入门笔记
 ## 前端分层
 
 在更进一步深入学习之前，首先要简单了解一下前端代码的层次结构。
-![分层示意图](images/20190226164820277_1443508762.png =800x)
+![分层示意图](https://github.com/gooree/antd-doc/blob/master/images/20190226164820277_1443508762.png)
 
 > 图中Page对应的就是视图View层，Server既可以是实际的服务接口也可以是模拟的Mock接口。
 
