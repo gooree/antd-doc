@@ -72,6 +72,9 @@ connect 方法返回的也是一个 React 组件，通常称为容器组件。�
 
 connect 方法传入的第一个参数是 mapStateToProps 函数，mapStateToProps 函数会返回一个对象，用于建立 State 到 Props 的映射关系。
 
+> connect方法和@connect区别<br>
+> 在实际项目中经常看到connect和@connect两种不同的用法，其实两者本质是一样的，后者可以看做是前者的一种语法糖。
+
 ## dispatch 方法
 
 dispatch 是一个函数方法，用来将 Action 发送给 State。
