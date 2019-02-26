@@ -4,7 +4,7 @@ Model 负责处理业务逻辑，连接View层和Service层，为 Page 做数据
 
 # DVA
 
-dva是一个基于redux和redux-saga的数据流方案，为了简化开发体验，还额外内置了react-router和fetch，所以也可以理解为一个轻量级的应用框架。简单来说，它是基于React-Router、Redux和Redux-saga封装的一个Model层解决方案。
+dva是一个基于redux和redux-saga的数据流方案，为了简化开发体验，还额外内置了react-router和fetch，所以也可以理解为一个轻量级的应用框架。简单来说，它是基于React-Router、Redux和Redux-saga封装的一个Model层解决方案。DVA命名可以简单理解为Data View Attach。
 
 ## 核心概念
 
