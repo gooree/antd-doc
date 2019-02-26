@@ -21,7 +21,7 @@ export default async function request(url, options) {
 }
 ```
 
-该函数第一个参数为后端服务接口的url，第二个参数为请求的配置对象（有点类似于jquery的ajax请求）。
+> 注：该函数第一个参数为后端服务接口的url，第二个参数为请求的配置对象（有点类似于jquery的ajax请求）。
 
 常见的用法如下：
 ```
@@ -34,4 +34,4 @@ return request('/api/cards/add', {
 });
 ```
 
-**注：如果不提供options参数，则默认请求方法为GET请求。**
+> 注：如果不提供options参数，则默认请求方法为GET请求。
